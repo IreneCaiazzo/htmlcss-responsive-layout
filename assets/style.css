@@ -3,3 +3,74 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* nav */
+
+nav{
+    background-color: #0084FD;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    
+} 
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1150px;
+    margin: auto;
+}
+
+.menu-cont{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.menu{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.menu-link{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-btn{
+    background-color: white;
+    color: black;
+    padding: .5rem;
+    border: none;
+    border-radius: 25px;
+}
+
+.pop-up-menu{
+    display: none;
+    color: white;
+} 
+
+/* nav media query */
+
+@media screen and (max-width: 768px) {
+    .nav-container{
+        padding-inline: 2rem;
+    }
+
+    .menu-cont{
+        display: none;
+    }
+
+    .pop-up-menu{
+        display: block;
+    }
+}
+
+/* main */
+
