@@ -94,18 +94,54 @@ nav{
 
 .cell{
     flex-basis: calc((100% - 2 * var(--gapx)) / 3);
-    height: 200px;
+    height: 100%;
     background-color: #B5DDFF;
-}
-
-.cell.content{
-    height: 200px;
 }
 
 .cell-big{
     flex-basis: calc(2 * ((100% - 2 * var(--gapx)) / 3) + var(--gapx));
 }
 
-.cell:nth-child(even) .content{
+/* .cell:nth-child(even) .content{
     background-color: red;
+} */
+
+.cell-big{
+    display: flex;
+    height: 100%;
+    border-radius: 25px;
+    /* padding: 1rem; */
+}
+
+.text{
+    width: 50%;
+    padding: 1rem;
+}
+
+.title-sec-1{
+    color: #0084FD;
+    margin-bottom: 1rem;
+}
+
+.p-sec-1{
+    margin-bottom: 1rem;
+}
+
+.img-cont{
+    align-self: flex-end;
+    height: 200px;
+    width: 50%;
+}
+
+.img{
+    height: 100%;
+    
+}
+
+.btn-blue{
+    color: white;
+    background-color: #0084FD;
+    border: none;
+    padding: 1rem 2rem 1rem;
+    border-radius: 25px;
 }
