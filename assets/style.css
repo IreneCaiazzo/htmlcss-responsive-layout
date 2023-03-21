@@ -96,20 +96,13 @@ nav{
     flex-basis: calc((100% - 2 * var(--gapx)) / 3);
     height: 100%;
     background-color: #B5DDFF;
+    border-radius: 25px;
 }
-
-.cell-big{
-    flex-basis: calc(2 * ((100% - 2 * var(--gapx)) / 3) + var(--gapx));
-}
-
-/* .cell:nth-child(even) .content{
-    background-color: red;
-} */
 
 .cell-big{
     display: flex;
+    flex-basis: calc(2 * ((100% - 2 * var(--gapx)) / 3) + var(--gapx));
     height: 100%;
-    border-radius: 25px;
     /* padding: 1rem; */
 }
 
@@ -135,7 +128,6 @@ nav{
 
 .img{
     height: 100%;
-    
 }
 
 .btn-blue{
@@ -144,4 +136,9 @@ nav{
     border: none;
     padding: 1rem 2rem 1rem;
     border-radius: 25px;
+}
+
+.bi-file-earmark-code-fill{
+    display: block;
+    color: #0084FD;
 }
