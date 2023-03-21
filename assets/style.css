@@ -138,7 +138,8 @@ nav{
     border-radius: 25px;
 }
 
-.bi-file-earmark-code-fill{
+.bi-file-earmark-code-fill,
+.fa-compass-drafting{
     display: block;
     color: #0084FD;
 }
