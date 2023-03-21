@@ -139,7 +139,9 @@ nav{
 }
 
 .bi-file-earmark-code-fill,
-.fa-compass-drafting{
+.fa-compass-drafting,
+.fa-laptop-code,
+.fa-bullhorn{
     display: block;
     color: #0084FD;
 }
