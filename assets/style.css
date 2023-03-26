@@ -74,6 +74,8 @@ nav{
 
 /* main */
 
+/* first section */
+
 .container{
     max-width: 1000px;
     margin-inline: auto;
@@ -86,6 +88,7 @@ nav{
 
 .cells{
     margin-top: 100px;
+    margin-bottom: 3rem;
     display: flex;
     flex-wrap: wrap;
     background-color: green;
@@ -94,7 +97,6 @@ nav{
 
 .cell{
     flex-basis: calc((100% - 2 * var(--gapx)) / 3);
-    height: 100%;
     background-color: #B5DDFF;
     border-radius: 25px;
 }
@@ -120,12 +122,6 @@ nav{
     margin-bottom: 1rem;
 }
 
-.img-cont{
-    align-self: flex-end;
-    height: 200px;
-    width: 50%;
-}
-
 .img{
     height: 100%;
 }
@@ -144,4 +140,67 @@ nav{
 .fa-bullhorn{
     display: block;
     color: #0084FD;
+}
+
+/* second section */
+.sec-2{
+    background-color: #9792E4;
+}
+
+.container-sec-2{
+    max-width: 900px;
+    margin: auto;
+    padding-top: 8rem;
+    padding-bottom: 3rem;
+    display: flex;
+}
+
+.sec-right{
+    align-self: flex-end;
+}
+
+.sec-left,
+.sec-right{
+    flex: 0 0 50%;
+    padding-inline: 1rem;
+}
+
+.sec-right{ 
+    background-color: white;
+    max-width: 100%;
+    height: auto;
+    border-radius: 25px;
+    padding: 1rem;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.img-sec2-left,
+.img-sec2-right{
+    display: block;
+    max-width: 100%;
+}
+
+.img-sec2-left{
+    margin-bottom: 8rem;
+}
+
+.img-sec2-right{
+    max-width: 150px;
+    aspect-ratio: 1 / 1;
+    margin: 1rem auto;
+}
+
+.title-sec-2-left{
+    color: white;
+    margin-bottom: 4rem;
+}
+
+.p-sec-2-left{
+    color:white;
+}
+
+.title-sec-2-right{
+    color: black;
+    margin-bottom: 4rem;
 }
