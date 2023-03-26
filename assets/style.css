@@ -81,12 +81,12 @@ nav{
     margin-inline: auto;
 }
 
-.grid{
+.container .grid{
     --gapx: 1rem;
     --gapy: 2rem;
 }
 
-.cells{
+.container .cells{
     margin-top: 100px;
     margin-bottom: 3rem;
     display: flex;
@@ -95,7 +95,7 @@ nav{
     gap: var(--gapy) var(--gapx);
 }
 
-.cell{
+.container .cell{
     flex-basis: calc((100% - 2 * var(--gapx)) / 3);
     background-color: #B5DDFF;
     border-radius: 25px;
